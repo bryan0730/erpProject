@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\DBProgramming\bin\Debug\DBProgramming.exe.config
+C:\Users\user\source\repos\DBProgramming\bin\Debug\DBProgramming.exe
+C:\Users\user\source\repos\DBProgramming\bin\Debug\DBProgramming.pdb
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.csprojAssemblyReference.cache
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.Properties.Resources.resources
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.csproj.GenerateResource.cache
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.exe
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.pdb
+C:\Users\user\source\repos\DBProgramming\obj\Debug\DBProgramming.Form1.resources

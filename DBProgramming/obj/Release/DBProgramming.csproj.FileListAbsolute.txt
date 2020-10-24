@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\DBProgramming\bin\Release\DBProgramming.exe.config
+C:\Users\user\source\repos\DBProgramming\bin\Release\DBProgramming.exe
+C:\Users\user\source\repos\DBProgramming\bin\Release\DBProgramming.pdb
+C:\Users\user\source\repos\DBProgramming\obj\Release\DBProgramming.Properties.Resources.resources
+C:\Users\user\source\repos\DBProgramming\obj\Release\DBProgramming.csproj.GenerateResource.cache
+C:\Users\user\source\repos\DBProgramming\obj\Release\DBProgramming.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DBProgramming\obj\Release\DBProgramming.exe
+C:\Users\user\source\repos\DBProgramming\obj\Release\DBProgramming.pdb

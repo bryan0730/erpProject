@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\ProjectERP\bin\Debug\ProjectERP.exe.config
+C:\Users\user\source\repos\ProjectERP\bin\Debug\ProjectERP.exe
+C:\Users\user\source\repos\ProjectERP\bin\Debug\ProjectERP.pdb
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.Form1.resources
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.Form2.resources
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.Form3.resources
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.Properties.Resources.resources
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.csproj.GenerateResource.cache
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.exe
+C:\Users\user\source\repos\ProjectERP\obj\Debug\ProjectERP.pdb
