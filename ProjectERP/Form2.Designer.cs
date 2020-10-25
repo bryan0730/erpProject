@@ -30,27 +30,26 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.employeeTab = new System.Windows.Forms.TabPage();
-            this.workTab = new System.Windows.Forms.TabPage();
-            this.divsionTab = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.employeeInsertTab = new System.Windows.Forms.TabPage();
-            this.employeeUpdateTab = new System.Windows.Forms.TabPage();
-            this.employeeDeleteTab = new System.Windows.Forms.TabPage();
-            this.employeeSearchTab = new System.Windows.Forms.TabPage();
-            this.textBoxEmpNum = new System.Windows.Forms.TextBox();
-            this.textBoxEmpName = new System.Windows.Forms.TextBox();
-            this.textBoxEmpAddress = new System.Windows.Forms.TextBox();
-            this.textBoxEmpAge = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBoxEmpDivision = new System.Windows.Forms.ComboBox();
-            this.comboBoxEmpClass = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.buttonEmpEnroll = new System.Windows.Forms.Button();
             this.buttonAdrSearch = new System.Windows.Forms.Button();
+            this.buttonEmpEnroll = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBoxEmpClass = new System.Windows.Forms.ComboBox();
+            this.comboBoxEmpDivision = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxEmpAge = new System.Windows.Forms.TextBox();
+            this.textBoxEmpAddress = new System.Windows.Forms.TextBox();
+            this.textBoxEmpName = new System.Windows.Forms.TextBox();
+            this.textBoxEmpNum = new System.Windows.Forms.TextBox();
+            this.employeeUpdateTab = new System.Windows.Forms.TabPage();
+            this.label13 = new System.Windows.Forms.Label();
+            this.buttonEmpSearch = new System.Windows.Forms.Button();
+            this.textBoxSearchEmp = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -65,72 +64,74 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBoxSearchEmp = new System.Windows.Forms.TextBox();
-            this.buttonEmpSearch = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.dataGridViewEmpList = new System.Windows.Forms.DataGridView();
+            this.employeeDeleteTab = new System.Windows.Forms.TabPage();
             this.buttonEmpDelete = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.dataGridViewEmpList = new System.Windows.Forms.DataGridView();
+            this.employeeSearchTab = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.workTab = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button5 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.divsionTab = new System.Windows.Forms.TabPage();
             this.tabControl4 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.divisionTable = new System.Windows.Forms.DataGridView();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button8 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.dataGridView7 = new System.Windows.Forms.DataGridView();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button9 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.dataGridView8 = new System.Windows.Forms.DataGridView();
+            this.button10 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.employeeTab.SuspendLayout();
-            this.workTab.SuspendLayout();
-            this.divsionTab.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.employeeInsertTab.SuspendLayout();
             this.employeeUpdateTab.SuspendLayout();
             this.employeeDeleteTab.SuspendLayout();
-            this.employeeSearchTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpList)).BeginInit();
+            this.employeeSearchTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.workTab.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.divsionTab.SuspendLayout();
             this.tabControl4.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionTable)).BeginInit();
             this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,27 +157,6 @@
             this.employeeTab.Text = "사원";
             this.employeeTab.UseVisualStyleBackColor = true;
             // 
-            // workTab
-            // 
-            this.workTab.Controls.Add(this.tabControl3);
-            this.workTab.Location = new System.Drawing.Point(4, 22);
-            this.workTab.Name = "workTab";
-            this.workTab.Padding = new System.Windows.Forms.Padding(3);
-            this.workTab.Size = new System.Drawing.Size(787, 424);
-            this.workTab.TabIndex = 1;
-            this.workTab.Text = "업무";
-            this.workTab.UseVisualStyleBackColor = true;
-            // 
-            // divsionTab
-            // 
-            this.divsionTab.Controls.Add(this.tabControl4);
-            this.divsionTab.Location = new System.Drawing.Point(4, 22);
-            this.divsionTab.Name = "divsionTab";
-            this.divsionTab.Size = new System.Drawing.Size(787, 424);
-            this.divsionTab.TabIndex = 2;
-            this.divsionTab.Text = "부서";
-            this.divsionTab.UseVisualStyleBackColor = true;
-            // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.employeeInsertTab);
@@ -191,6 +171,7 @@
             // 
             // employeeInsertTab
             // 
+            this.employeeInsertTab.Controls.Add(this.button10);
             this.employeeInsertTab.Controls.Add(this.buttonAdrSearch);
             this.employeeInsertTab.Controls.Add(this.buttonEmpEnroll);
             this.employeeInsertTab.Controls.Add(this.label6);
@@ -212,6 +193,122 @@
             this.employeeInsertTab.TabIndex = 0;
             this.employeeInsertTab.Text = "등록";
             this.employeeInsertTab.UseVisualStyleBackColor = true;
+            // 
+            // buttonAdrSearch
+            // 
+            this.buttonAdrSearch.Location = new System.Drawing.Point(295, 225);
+            this.buttonAdrSearch.Name = "buttonAdrSearch";
+            this.buttonAdrSearch.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdrSearch.TabIndex = 13;
+            this.buttonAdrSearch.Text = "주소찾기";
+            this.buttonAdrSearch.UseVisualStyleBackColor = true;
+            // 
+            // buttonEmpEnroll
+            // 
+            this.buttonEmpEnroll.Location = new System.Drawing.Point(342, 301);
+            this.buttonEmpEnroll.Name = "buttonEmpEnroll";
+            this.buttonEmpEnroll.Size = new System.Drawing.Size(75, 23);
+            this.buttonEmpEnroll.TabIndex = 12;
+            this.buttonEmpEnroll.Text = "등록";
+            this.buttonEmpEnroll.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(420, 136);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 12);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "직급";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(420, 89);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 12);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "부서";
+            // 
+            // comboBoxEmpClass
+            // 
+            this.comboBoxEmpClass.FormattingEnabled = true;
+            this.comboBoxEmpClass.Location = new System.Drawing.Point(478, 133);
+            this.comboBoxEmpClass.Name = "comboBoxEmpClass";
+            this.comboBoxEmpClass.Size = new System.Drawing.Size(121, 20);
+            this.comboBoxEmpClass.TabIndex = 9;
+            // 
+            // comboBoxEmpDivision
+            // 
+            this.comboBoxEmpDivision.FormattingEnabled = true;
+            this.comboBoxEmpDivision.Location = new System.Drawing.Point(478, 86);
+            this.comboBoxEmpDivision.Name = "comboBoxEmpDivision";
+            this.comboBoxEmpDivision.Size = new System.Drawing.Size(121, 20);
+            this.comboBoxEmpDivision.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(123, 135);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 12);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "이름";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(123, 182);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 12);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "나이";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(123, 228);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "주소";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(123, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "사원번호";
+            // 
+            // textBoxEmpAge
+            // 
+            this.textBoxEmpAge.Location = new System.Drawing.Point(189, 179);
+            this.textBoxEmpAge.Name = "textBoxEmpAge";
+            this.textBoxEmpAge.Size = new System.Drawing.Size(100, 21);
+            this.textBoxEmpAge.TabIndex = 3;
+            // 
+            // textBoxEmpAddress
+            // 
+            this.textBoxEmpAddress.Location = new System.Drawing.Point(189, 225);
+            this.textBoxEmpAddress.Name = "textBoxEmpAddress";
+            this.textBoxEmpAddress.Size = new System.Drawing.Size(100, 21);
+            this.textBoxEmpAddress.TabIndex = 2;
+            // 
+            // textBoxEmpName
+            // 
+            this.textBoxEmpName.Location = new System.Drawing.Point(189, 132);
+            this.textBoxEmpName.Name = "textBoxEmpName";
+            this.textBoxEmpName.Size = new System.Drawing.Size(100, 21);
+            this.textBoxEmpName.TabIndex = 1;
+            // 
+            // textBoxEmpNum
+            // 
+            this.textBoxEmpNum.Location = new System.Drawing.Point(189, 85);
+            this.textBoxEmpNum.Name = "textBoxEmpNum";
+            this.textBoxEmpNum.Size = new System.Drawing.Size(100, 21);
+            this.textBoxEmpNum.TabIndex = 0;
             // 
             // employeeUpdateTab
             // 
@@ -240,145 +337,30 @@
             this.employeeUpdateTab.Text = "수정";
             this.employeeUpdateTab.UseVisualStyleBackColor = true;
             // 
-            // employeeDeleteTab
+            // label13
             // 
-            this.employeeDeleteTab.Controls.Add(this.buttonEmpDelete);
-            this.employeeDeleteTab.Controls.Add(this.dataGridViewEmpList);
-            this.employeeDeleteTab.Location = new System.Drawing.Point(4, 22);
-            this.employeeDeleteTab.Name = "employeeDeleteTab";
-            this.employeeDeleteTab.Size = new System.Drawing.Size(787, 402);
-            this.employeeDeleteTab.TabIndex = 2;
-            this.employeeDeleteTab.Text = "삭제";
-            this.employeeDeleteTab.UseVisualStyleBackColor = true;
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(87, 40);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(53, 12);
+            this.label13.TabIndex = 30;
+            this.label13.Text = "사원검색";
             // 
-            // employeeSearchTab
+            // buttonEmpSearch
             // 
-            this.employeeSearchTab.Controls.Add(this.button3);
-            this.employeeSearchTab.Controls.Add(this.textBox5);
-            this.employeeSearchTab.Controls.Add(this.comboBox3);
-            this.employeeSearchTab.Controls.Add(this.dataGridView1);
-            this.employeeSearchTab.Location = new System.Drawing.Point(4, 22);
-            this.employeeSearchTab.Name = "employeeSearchTab";
-            this.employeeSearchTab.Size = new System.Drawing.Size(787, 402);
-            this.employeeSearchTab.TabIndex = 3;
-            this.employeeSearchTab.Text = "검색";
-            this.employeeSearchTab.UseVisualStyleBackColor = true;
+            this.buttonEmpSearch.Location = new System.Drawing.Point(263, 35);
+            this.buttonEmpSearch.Name = "buttonEmpSearch";
+            this.buttonEmpSearch.Size = new System.Drawing.Size(75, 23);
+            this.buttonEmpSearch.TabIndex = 29;
+            this.buttonEmpSearch.Text = "사원검색";
+            this.buttonEmpSearch.UseVisualStyleBackColor = true;
             // 
-            // textBoxEmpNum
+            // textBoxSearchEmp
             // 
-            this.textBoxEmpNum.Location = new System.Drawing.Point(189, 85);
-            this.textBoxEmpNum.Name = "textBoxEmpNum";
-            this.textBoxEmpNum.Size = new System.Drawing.Size(100, 21);
-            this.textBoxEmpNum.TabIndex = 0;
-            // 
-            // textBoxEmpName
-            // 
-            this.textBoxEmpName.Location = new System.Drawing.Point(189, 132);
-            this.textBoxEmpName.Name = "textBoxEmpName";
-            this.textBoxEmpName.Size = new System.Drawing.Size(100, 21);
-            this.textBoxEmpName.TabIndex = 1;
-            // 
-            // textBoxEmpAddress
-            // 
-            this.textBoxEmpAddress.Location = new System.Drawing.Point(189, 225);
-            this.textBoxEmpAddress.Name = "textBoxEmpAddress";
-            this.textBoxEmpAddress.Size = new System.Drawing.Size(100, 21);
-            this.textBoxEmpAddress.TabIndex = 2;
-            // 
-            // textBoxEmpAge
-            // 
-            this.textBoxEmpAge.Location = new System.Drawing.Point(189, 179);
-            this.textBoxEmpAge.Name = "textBoxEmpAge";
-            this.textBoxEmpAge.Size = new System.Drawing.Size(100, 21);
-            this.textBoxEmpAge.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "사원번호";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(123, 228);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "주소";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(123, 182);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 12);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "나이";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(123, 135);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 12);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "이름";
-            // 
-            // comboBoxEmpDivision
-            // 
-            this.comboBoxEmpDivision.FormattingEnabled = true;
-            this.comboBoxEmpDivision.Location = new System.Drawing.Point(478, 86);
-            this.comboBoxEmpDivision.Name = "comboBoxEmpDivision";
-            this.comboBoxEmpDivision.Size = new System.Drawing.Size(121, 20);
-            this.comboBoxEmpDivision.TabIndex = 8;
-            // 
-            // comboBoxEmpClass
-            // 
-            this.comboBoxEmpClass.FormattingEnabled = true;
-            this.comboBoxEmpClass.Location = new System.Drawing.Point(478, 133);
-            this.comboBoxEmpClass.Name = "comboBoxEmpClass";
-            this.comboBoxEmpClass.Size = new System.Drawing.Size(121, 20);
-            this.comboBoxEmpClass.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(420, 89);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 12);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "부서";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(420, 136);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 12);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "직급";
-            // 
-            // buttonEmpEnroll
-            // 
-            this.buttonEmpEnroll.Location = new System.Drawing.Point(342, 301);
-            this.buttonEmpEnroll.Name = "buttonEmpEnroll";
-            this.buttonEmpEnroll.Size = new System.Drawing.Size(75, 23);
-            this.buttonEmpEnroll.TabIndex = 12;
-            this.buttonEmpEnroll.Text = "등록";
-            this.buttonEmpEnroll.UseVisualStyleBackColor = true;
-            // 
-            // buttonAdrSearch
-            // 
-            this.buttonAdrSearch.Location = new System.Drawing.Point(295, 225);
-            this.buttonAdrSearch.Name = "buttonAdrSearch";
-            this.buttonAdrSearch.Size = new System.Drawing.Size(75, 23);
-            this.buttonAdrSearch.TabIndex = 13;
-            this.buttonAdrSearch.Text = "주소찾기";
-            this.buttonAdrSearch.UseVisualStyleBackColor = true;
+            this.textBoxSearchEmp.Location = new System.Drawing.Point(157, 35);
+            this.textBoxSearchEmp.Name = "textBoxSearchEmp";
+            this.textBoxSearchEmp.Size = new System.Drawing.Size(100, 21);
+            this.textBoxSearchEmp.TabIndex = 28;
             // 
             // button1
             // 
@@ -496,39 +478,16 @@
             this.textBox4.Size = new System.Drawing.Size(100, 21);
             this.textBox4.TabIndex = 14;
             // 
-            // textBoxSearchEmp
+            // employeeDeleteTab
             // 
-            this.textBoxSearchEmp.Location = new System.Drawing.Point(157, 35);
-            this.textBoxSearchEmp.Name = "textBoxSearchEmp";
-            this.textBoxSearchEmp.Size = new System.Drawing.Size(100, 21);
-            this.textBoxSearchEmp.TabIndex = 28;
-            // 
-            // buttonEmpSearch
-            // 
-            this.buttonEmpSearch.Location = new System.Drawing.Point(263, 35);
-            this.buttonEmpSearch.Name = "buttonEmpSearch";
-            this.buttonEmpSearch.Size = new System.Drawing.Size(75, 23);
-            this.buttonEmpSearch.TabIndex = 29;
-            this.buttonEmpSearch.Text = "사원검색";
-            this.buttonEmpSearch.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(87, 40);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(53, 12);
-            this.label13.TabIndex = 30;
-            this.label13.Text = "사원검색";
-            // 
-            // dataGridViewEmpList
-            // 
-            this.dataGridViewEmpList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewEmpList.Location = new System.Drawing.Point(39, 20);
-            this.dataGridViewEmpList.Name = "dataGridViewEmpList";
-            this.dataGridViewEmpList.RowTemplate.Height = 23;
-            this.dataGridViewEmpList.Size = new System.Drawing.Size(700, 267);
-            this.dataGridViewEmpList.TabIndex = 0;
+            this.employeeDeleteTab.Controls.Add(this.buttonEmpDelete);
+            this.employeeDeleteTab.Controls.Add(this.dataGridViewEmpList);
+            this.employeeDeleteTab.Location = new System.Drawing.Point(4, 22);
+            this.employeeDeleteTab.Name = "employeeDeleteTab";
+            this.employeeDeleteTab.Size = new System.Drawing.Size(787, 402);
+            this.employeeDeleteTab.TabIndex = 2;
+            this.employeeDeleteTab.Text = "삭제";
+            this.employeeDeleteTab.UseVisualStyleBackColor = true;
             // 
             // buttonEmpDelete
             // 
@@ -539,29 +498,27 @@
             this.buttonEmpDelete.Text = "삭제";
             this.buttonEmpDelete.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dataGridViewEmpList
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(55, 108);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(653, 238);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewEmpList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewEmpList.Location = new System.Drawing.Point(39, 20);
+            this.dataGridViewEmpList.Name = "dataGridViewEmpList";
+            this.dataGridViewEmpList.RowTemplate.Height = 23;
+            this.dataGridViewEmpList.Size = new System.Drawing.Size(700, 267);
+            this.dataGridViewEmpList.TabIndex = 0;
             // 
-            // comboBox3
+            // employeeSearchTab
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(429, 71);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(90, 20);
-            this.comboBox3.TabIndex = 1;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(525, 70);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 21);
-            this.textBox5.TabIndex = 2;
+            this.employeeSearchTab.Controls.Add(this.button3);
+            this.employeeSearchTab.Controls.Add(this.textBox5);
+            this.employeeSearchTab.Controls.Add(this.comboBox3);
+            this.employeeSearchTab.Controls.Add(this.dataGridView1);
+            this.employeeSearchTab.Location = new System.Drawing.Point(4, 22);
+            this.employeeSearchTab.Name = "employeeSearchTab";
+            this.employeeSearchTab.Size = new System.Drawing.Size(787, 402);
+            this.employeeSearchTab.TabIndex = 3;
+            this.employeeSearchTab.Text = "검색";
+            this.employeeSearchTab.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -571,6 +528,41 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "검색";
             this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(525, 70);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 21);
+            this.textBox5.TabIndex = 2;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(429, 71);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(90, 20);
+            this.comboBox3.TabIndex = 1;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(55, 108);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(653, 238);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // workTab
+            // 
+            this.workTab.Controls.Add(this.tabControl3);
+            this.workTab.Location = new System.Drawing.Point(4, 22);
+            this.workTab.Name = "workTab";
+            this.workTab.Padding = new System.Windows.Forms.Padding(3);
+            this.workTab.Size = new System.Drawing.Size(787, 424);
+            this.workTab.TabIndex = 1;
+            this.workTab.Text = "업무";
+            this.workTab.UseVisualStyleBackColor = true;
             // 
             // tabControl3
             // 
@@ -596,6 +588,30 @@
             this.tabPage1.Text = "등록";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(465, 172);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "업무등록";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(305, 172);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(154, 21);
+            this.textBox6.TabIndex = 1;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(178, 173);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 20);
+            this.comboBox4.TabIndex = 0;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.button5);
@@ -612,6 +628,58 @@
             this.tabPage2.Text = "수정";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(359, 291);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(109, 23);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "업무마스터수정";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(203, 291);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(150, 21);
+            this.textBox7.TabIndex = 4;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(427, 64);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(41, 12);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "소분류";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(54, 64);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 12);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "중분류";
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(429, 88);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowTemplate.Height = 23;
+            this.dataGridView3.Size = new System.Drawing.Size(266, 150);
+            this.dataGridView3.TabIndex = 1;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(56, 88);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 23;
+            this.dataGridView2.Size = new System.Drawing.Size(266, 150);
+            this.dataGridView2.TabIndex = 0;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.textBox8);
@@ -627,81 +695,21 @@
             this.tabPage3.Text = "삭제";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // comboBox4
+            // textBox8
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(178, 173);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 20);
-            this.comboBox4.TabIndex = 0;
+            this.textBox8.Location = new System.Drawing.Point(296, 306);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(199, 21);
+            this.textBox8.TabIndex = 9;
             // 
-            // textBox6
+            // button6
             // 
-            this.textBox6.Location = new System.Drawing.Point(305, 172);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(154, 21);
-            this.textBox6.TabIndex = 1;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(465, 172);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "업무등록";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(56, 88);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(266, 150);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(429, 88);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 23;
-            this.dataGridView3.Size = new System.Drawing.Size(266, 150);
-            this.dataGridView3.TabIndex = 1;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(54, 64);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 12);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "중분류";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(427, 64);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 12);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "소분류";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(203, 291);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(150, 21);
-            this.textBox7.TabIndex = 4;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(359, 291);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "업무마스터수정";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(338, 344);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(121, 23);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "업무마스터삭제";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
@@ -739,21 +747,15 @@
             this.dataGridView5.Size = new System.Drawing.Size(266, 150);
             this.dataGridView5.TabIndex = 4;
             // 
-            // button6
+            // divsionTab
             // 
-            this.button6.Location = new System.Drawing.Point(338, 344);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 23);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "업무마스터삭제";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(296, 306);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(199, 21);
-            this.textBox8.TabIndex = 9;
+            this.divsionTab.Controls.Add(this.tabControl4);
+            this.divsionTab.Location = new System.Drawing.Point(4, 22);
+            this.divsionTab.Name = "divsionTab";
+            this.divsionTab.Size = new System.Drawing.Size(787, 424);
+            this.divsionTab.TabIndex = 2;
+            this.divsionTab.Text = "부서";
+            this.divsionTab.UseVisualStyleBackColor = true;
             // 
             // tabControl4
             // 
@@ -770,7 +772,7 @@
             // 
             this.tabPage4.Controls.Add(this.button7);
             this.tabPage4.Controls.Add(this.textBox9);
-            this.tabPage4.Controls.Add(this.dataGridView6);
+            this.tabPage4.Controls.Add(this.divisionTable);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -778,6 +780,31 @@
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "등록";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(425, 299);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "등록";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(257, 299);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(123, 21);
+            this.textBox9.TabIndex = 1;
+            // 
+            // divisionTable
+            // 
+            this.divisionTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.divisionTable.Location = new System.Drawing.Point(149, 69);
+            this.divisionTable.Name = "divisionTable";
+            this.divisionTable.RowTemplate.Height = 23;
+            this.divisionTable.Size = new System.Drawing.Size(455, 190);
+            this.divisionTable.TabIndex = 0;
             // 
             // tabPage5
             // 
@@ -791,43 +818,6 @@
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "수정";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.button9);
-            this.tabPage6.Controls.Add(this.textBox11);
-            this.tabPage6.Controls.Add(this.dataGridView8);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(787, 402);
-            this.tabPage6.TabIndex = 2;
-            this.tabPage6.Text = "삭제";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView6
-            // 
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Location = new System.Drawing.Point(149, 69);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.RowTemplate.Height = 23;
-            this.dataGridView6.Size = new System.Drawing.Size(455, 190);
-            this.dataGridView6.TabIndex = 0;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(257, 299);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(123, 21);
-            this.textBox9.TabIndex = 1;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(425, 299);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "등록";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -854,6 +844,18 @@
             this.dataGridView7.Size = new System.Drawing.Size(455, 190);
             this.dataGridView7.TabIndex = 3;
             // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.button9);
+            this.tabPage6.Controls.Add(this.textBox11);
+            this.tabPage6.Controls.Add(this.dataGridView8);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(787, 402);
+            this.tabPage6.TabIndex = 2;
+            this.tabPage6.Text = "삭제";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
             // button9
             // 
             this.button9.Location = new System.Drawing.Point(442, 305);
@@ -879,6 +881,16 @@
             this.dataGridView8.Size = new System.Drawing.Size(455, 190);
             this.dataGridView8.TabIndex = 3;
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(658, 19);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 14;
+            this.button10.Text = "button10";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -889,38 +901,38 @@
             this.Text = "ERP";
             this.tabControl1.ResumeLayout(false);
             this.employeeTab.ResumeLayout(false);
-            this.workTab.ResumeLayout(false);
-            this.divsionTab.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.employeeInsertTab.ResumeLayout(false);
             this.employeeInsertTab.PerformLayout();
             this.employeeUpdateTab.ResumeLayout(false);
             this.employeeUpdateTab.PerformLayout();
             this.employeeDeleteTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpList)).EndInit();
             this.employeeSearchTab.ResumeLayout(false);
             this.employeeSearchTab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.workTab.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            this.divsionTab.ResumeLayout(false);
             this.tabControl4.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionTable)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             this.ResumeLayout(false);
 
@@ -997,7 +1009,7 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.DataGridView divisionTable;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox textBox10;
@@ -1006,5 +1018,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.DataGridView dataGridView8;
+        private System.Windows.Forms.Button button10;
     }
 }

@@ -80,6 +80,7 @@
             this.buttonLogin.TabIndex = 4;
             this.buttonLogin.Text = "LOGIN";
             this.buttonLogin.UseVisualStyleBackColor = true;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // checkBoxAutoLogin
             // 
@@ -90,6 +91,7 @@
             this.checkBoxAutoLogin.TabIndex = 5;
             this.checkBoxAutoLogin.Text = "자동로그인";
             this.checkBoxAutoLogin.UseVisualStyleBackColor = true;
+            this.checkBoxAutoLogin.CheckedChanged += new System.EventHandler(this.checkBoxAutoLogin_CheckedChanged);
             // 
             // Form1
             // 
