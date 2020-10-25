@@ -91,6 +91,7 @@
             this.checkBoxAutoLogin.TabIndex = 5;
             this.checkBoxAutoLogin.Text = "자동로그인";
             this.checkBoxAutoLogin.UseVisualStyleBackColor = true;
+            this.checkBoxAutoLogin.CheckedChanged += new System.EventHandler(this.checkBoxAutoLogin_CheckedChanged);
             // 
             // Form1
             // 

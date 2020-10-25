@@ -64,6 +64,10 @@
             this.textBoxUpdateAddress = new System.Windows.Forms.TextBox();
             this.textBoxUpdateName = new System.Windows.Forms.TextBox();
             this.textBoxUpdateNumber = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.employeeDeleteTab = new System.Windows.Forms.TabPage();
             this.buttonEmpDelete = new System.Windows.Forms.Button();
             this.dataGridViewEmpList = new System.Windows.Forms.DataGridView();
@@ -71,6 +75,9 @@
             this.buttonEmpOnlySearch = new System.Windows.Forms.Button();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.comboBoxSearch = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.workTab = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -98,6 +105,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.divisionTable = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button8 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -106,6 +114,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.dataGridView8 = new System.Windows.Forms.DataGridView();
+            this.button10 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.employeeTab.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -128,6 +137,7 @@
             this.tabControl4.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionTable)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.tabPage6.SuspendLayout();
@@ -170,6 +180,7 @@
             // 
             // employeeInsertTab
             // 
+            this.employeeInsertTab.Controls.Add(this.button10);
             this.employeeInsertTab.Controls.Add(this.buttonAdrSearch);
             this.employeeInsertTab.Controls.Add(this.buttonEmpEnroll);
             this.employeeInsertTab.Controls.Add(this.label6);
@@ -320,6 +331,11 @@
             this.employeeUpdateTab.Controls.Add(this.label8);
             this.employeeUpdateTab.Controls.Add(this.comboBoxUpdateClass);
             this.employeeUpdateTab.Controls.Add(this.comboBoxUpdateDiv);
+            this.employeeUpdateTab.Controls.Add(this.button2);
+            this.employeeUpdateTab.Controls.Add(this.label7);
+            this.employeeUpdateTab.Controls.Add(this.label8);
+            this.employeeUpdateTab.Controls.Add(this.comboBox1);
+            this.employeeUpdateTab.Controls.Add(this.comboBox2);
             this.employeeUpdateTab.Controls.Add(this.label9);
             this.employeeUpdateTab.Controls.Add(this.label10);
             this.employeeUpdateTab.Controls.Add(this.label11);
@@ -328,6 +344,10 @@
             this.employeeUpdateTab.Controls.Add(this.textBoxUpdateAddress);
             this.employeeUpdateTab.Controls.Add(this.textBoxUpdateName);
             this.employeeUpdateTab.Controls.Add(this.textBoxUpdateNumber);
+            this.employeeUpdateTab.Controls.Add(this.textBox1);
+            this.employeeUpdateTab.Controls.Add(this.textBox2);
+            this.employeeUpdateTab.Controls.Add(this.textBox3);
+            this.employeeUpdateTab.Controls.Add(this.textBox4);
             this.employeeUpdateTab.Location = new System.Drawing.Point(4, 22);
             this.employeeUpdateTab.Name = "employeeUpdateTab";
             this.employeeUpdateTab.Padding = new System.Windows.Forms.Padding(3);
@@ -513,6 +533,9 @@
             this.employeeSearchTab.Controls.Add(this.buttonEmpOnlySearch);
             this.employeeSearchTab.Controls.Add(this.textBoxSearch);
             this.employeeSearchTab.Controls.Add(this.comboBoxSearch);
+            this.employeeSearchTab.Controls.Add(this.button3);
+            this.employeeSearchTab.Controls.Add(this.textBox5);
+            this.employeeSearchTab.Controls.Add(this.comboBox3);
             this.employeeSearchTab.Controls.Add(this.dataGridView1);
             this.employeeSearchTab.Location = new System.Drawing.Point(4, 22);
             this.employeeSearchTab.Name = "employeeSearchTab";
@@ -545,6 +568,32 @@
             this.comboBoxSearch.Name = "comboBoxSearch";
             this.comboBoxSearch.Size = new System.Drawing.Size(90, 20);
             this.comboBoxSearch.TabIndex = 1;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(642, 71);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(66, 23);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "검색";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(525, 70);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 21);
+            this.textBox5.TabIndex = 2;
+            // 
+            // workTab
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(429, 71);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(90, 20);
+            this.comboBox3.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -774,7 +823,7 @@
             // 
             this.tabPage4.Controls.Add(this.button7);
             this.tabPage4.Controls.Add(this.textBox9);
-            this.tabPage4.Controls.Add(this.dataGridView6);
+            this.tabPage4.Controls.Add(this.divisionTable);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -784,6 +833,31 @@
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(425, 299);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "등록";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(257, 299);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(123, 21);
+            this.textBox9.TabIndex = 1;
+            // 
+            // divisionTable
+            // 
+            this.divisionTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.divisionTable.Location = new System.Drawing.Point(149, 69);
+            this.divisionTable.Name = "divisionTable";
+            this.divisionTable.RowTemplate.Height = 23;
+            this.divisionTable.Size = new System.Drawing.Size(455, 190);
+            this.divisionTable.TabIndex = 0;
+            // 
+            // tabPage5
             // 
             this.button7.Location = new System.Drawing.Point(425, 299);
             this.button7.Name = "button7";
@@ -883,6 +957,16 @@
             this.dataGridView8.Size = new System.Drawing.Size(455, 190);
             this.dataGridView8.TabIndex = 3;
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(658, 19);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 14;
+            this.button10.Text = "button10";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -920,6 +1004,7 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionTable)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
@@ -1001,7 +1086,7 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.DataGridView divisionTable;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox textBox10;
@@ -1010,5 +1095,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.DataGridView dataGridView8;
+        private System.Windows.Forms.Button button10;
     }
 }
