@@ -103,7 +103,7 @@ namespace ProjectERP
             }
         }
 
-        // 사원 -> 수정 -> 검색
+        // 사원 -> 수정 -> 사원검색
         private void buttonEmpSearch_Click(object sender, EventArgs e)
         {
             string empNumber = textBoxSearchEmp.Text;
