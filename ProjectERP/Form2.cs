@@ -19,6 +19,35 @@ namespace ProjectERP
             InitializeComponent();
             initComboBox_enroll();
             initComboBox_update();
+            initcomboBox_Search();
+
+            initDataSet();
+        }
+        
+        private void initDataSet()
+        {
+            DataSet ds = GetData();
+            dataGridViewEmpList.DataSource = ds.Tables[0];
+            dataGridViewSearch.DataSource = ds.Tables[0];
+        }
+
+        private DataSet GetData()
+        {
+            MySqlConnection conn = new MySqlConnection(strcoon);
+            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT * FROM employee", conn);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            return ds;
+        }
+
+        // 사원 -> 검색 Data
+        private DataSet SearchData(string sql)
+        {
+            MySqlConnection conn = new MySqlConnection(strcoon);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(sql, conn);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            return ds;
         }
 
         // 등록 부서, 직급 init comboBox
@@ -81,7 +110,16 @@ namespace ProjectERP
             }
         }
 
+        // 사원 -> 검색 -> comboBox set
+        private void initcomboBox_Search()
+        {
+            comboBoxSearch.Items.Clear();
+            comboBoxSearch.Items.Add("부서별");
+            comboBoxSearch.Items.Add("이름별");
+            comboBoxSearch.Items.Add("나이별");
+        }
 
+        // 사원 -> 등록 -> 등록
         private void buttonEmpEnroll_Click(object sender, EventArgs e)
         {
             string empName = textBoxEmpName.Text;
@@ -101,6 +139,7 @@ namespace ProjectERP
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.ExecuteNonQuery();
             }
+            dataGridViewEmpList.Refresh();
         }
 
         // 사원 -> 수정 -> 사원검색
@@ -147,12 +186,74 @@ namespace ProjectERP
             }
         }
 
-        // 사원 -> 검색
+        // 사원 -> 검색 -> 검색
         private void buttonEmpOnlySearch_Click(object sender, EventArgs e)
         {
+            string comboBoxText = comboBoxSearch.Text;
+            string textBoxSearchText = textBoxSearch.Text;
+            switch (comboBoxText)
+            {
+                // division
+                case "부서별":
+                    string sql_div = "select * from employee where " +
+                        "divisionSeq = (select divSeq from division where divName = " +
+                        "'"+textBoxSearchText+"')";
+                    DataSet ds_div = SearchData(sql_div);
+                    dataGridViewSearch.DataSource = ds_div.Tables[0];
+                    break;
+                case "이름별":
+                    string sql_name= "select * from employee where empName = " +
+                        "'" + textBoxSearchText + "'";
+                    DataSet ds_name = SearchData(sql_name);
+                    dataGridViewSearch.DataSource = ds_name.Tables[0];
+                    break;
+                case "나이별":
+                    string sql_age = "select * from employee where empAge = " +
+                        "'" + textBoxSearchText + "'";
+                    DataSet ds_age = SearchData(sql_age);
+                    dataGridViewSearch.DataSource = ds_age.Tables[0];
+                    break;
+                default:
+                    break;
+            }
+            //MessageBox.Show(comboBoxSearch.Text);
+            //DataSet ds = SearchData();
+            //dataGridViewSearch.DataSource = ds.Tables[0];
+        }
+        // 사원 -> 삭제 -> 삭제
+        private void buttonEmpDelete_Click(object sender, EventArgs e)
+        {
+            Int32 selectedRowCount =
+                dataGridViewEmpList.Rows.GetRowCount(DataGridViewElementStates.Selected);
+            if (selectedRowCount > 0)
+            {
+                System.Text.StringBuilder sb = new System.Text.StringBuilder();
 
+                for (int i = 0; i < selectedRowCount; i++)
+                {
+                    //sb.Append("Row: ");
+                    //sb.Append(dataGridViewEmpList.SelectedRows[i].Cells[0].Value.ToString());
+                    //sb.Append(dataGridViewEmpList.SelectedRows[i].Index.ToString());
+
+                    dataGridViewEmpList.Rows.Remove(dataGridViewEmpList.Rows[i]);
+                    dataGridViewEmpList.Refresh();
+
+                    string number = dataGridViewEmpList.SelectedRows[i].Cells[0].Value.ToString();
+                    using (MySqlConnection conn = new MySqlConnection(strcoon))
+                    {
+                        conn.Open();
+                        string query = "delete from employee where empSeq=" + "'" + number + "'";
+                        MySqlCommand cmd = new MySqlCommand(query, conn);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    sb.Append(Environment.NewLine);
+                }
+                
+                sb.Append("Total: " + selectedRowCount.ToString());
+                MessageBox.Show(sb.ToString(), "Selected Rows");
+            }
         }
 
-        
     }
 }

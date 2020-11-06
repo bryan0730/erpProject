@@ -71,7 +71,7 @@
             this.buttonEmpOnlySearch = new System.Windows.Forms.Button();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.comboBoxSearch = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewSearch = new System.Windows.Forms.DataGridView();
             this.workTab = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -114,7 +114,7 @@
             this.employeeDeleteTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpList)).BeginInit();
             this.employeeSearchTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).BeginInit();
             this.workTab.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -498,6 +498,7 @@
             this.buttonEmpDelete.TabIndex = 1;
             this.buttonEmpDelete.Text = "삭제";
             this.buttonEmpDelete.UseVisualStyleBackColor = true;
+            this.buttonEmpDelete.Click += new System.EventHandler(this.buttonEmpDelete_Click);
             // 
             // dataGridViewEmpList
             // 
@@ -513,7 +514,7 @@
             this.employeeSearchTab.Controls.Add(this.buttonEmpOnlySearch);
             this.employeeSearchTab.Controls.Add(this.textBoxSearch);
             this.employeeSearchTab.Controls.Add(this.comboBoxSearch);
-            this.employeeSearchTab.Controls.Add(this.dataGridView1);
+            this.employeeSearchTab.Controls.Add(this.dataGridViewSearch);
             this.employeeSearchTab.Location = new System.Drawing.Point(4, 22);
             this.employeeSearchTab.Name = "employeeSearchTab";
             this.employeeSearchTab.Size = new System.Drawing.Size(787, 402);
@@ -546,14 +547,14 @@
             this.comboBoxSearch.Size = new System.Drawing.Size(90, 20);
             this.comboBoxSearch.TabIndex = 1;
             // 
-            // dataGridView1
+            // dataGridViewSearch
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(55, 108);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(653, 238);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridViewSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewSearch.Location = new System.Drawing.Point(55, 108);
+            this.dataGridViewSearch.Name = "dataGridViewSearch";
+            this.dataGridViewSearch.RowTemplate.Height = 23;
+            this.dataGridViewSearch.Size = new System.Drawing.Size(653, 238);
+            this.dataGridViewSearch.TabIndex = 0;
             // 
             // workTab
             // 
@@ -902,7 +903,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpList)).EndInit();
             this.employeeSearchTab.ResumeLayout(false);
             this.employeeSearchTab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearch)).EndInit();
             this.workTab.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -977,7 +978,7 @@
         private System.Windows.Forms.Button buttonEmpOnlySearch;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.ComboBox comboBoxSearch;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewSearch;
         private System.Windows.Forms.TabControl tabControl3;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button button4;
